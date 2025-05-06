@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const url = 'https://twitter.com/elonmusk/status/1787174814626556170'; // এখানে তোমার টুইট লিংক বসাও
+  const url = 'https://x.com/MdAbuHanif2580/status/1919778707494891796'; // এখানে তোমার টুইট লিংক বসাও
 
   const browser = await puppeteer.launch({
     headless: true,
